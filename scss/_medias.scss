@@ -1,0 +1,172 @@
+
+/* Estilos para mobile*/
+
+@media (min-width: 844px) and (max-width: 1542px) {
+    .grid-container {
+      /* grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2,1fr); */
+      width: 500px;
+      height: 350px;
+  
+      /* grid-template-areas:  
+       "imagen1 imagen2"
+       "imagen3 imagen4"; */
+    }
+  
+    .contenedorFlex {
+      display: grid;
+      grid-template-columns: repeat(1 1fr);
+    }
+  
+    .contenedorFooter {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .contenedorProductos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .consulta {
+      display: inline;
+    }
+  
+    .tituloProductos {
+      display: block;
+      text-align: center;
+    }
+  
+    .contenedorTipos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .imgTip {
+      margin-top: 20px;
+    }
+  
+    .tituloTip {
+      text-align: center;
+    }
+  
+    .contenedorPreparando {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .pasosMate {
+      text-align: start;
+    }
+  
+    .img1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .imgGracias {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .tituloPrep {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+    }
+  
+    .tituloTip {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 844px) {
+    .grid-container {
+      height: 250px;
+      width: 350px;
+    }
+  
+    .contenedorFlex {
+      display: grid;
+      grid-template-columns: 1 1fr;
+    }
+  
+    .contenedorFooter, .contenedorProductos {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .consulta {
+      display: inline;
+    }
+  
+    .contenedorConsulta {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .tituloProductos {
+      display: block;
+      font-size: 40px;
+    }
+  
+    .container {
+      width: 350px;
+    }
+  
+    .contenedorTipos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .tituloPrep {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .tituloTip {
+      text-align: center;
+    }
+  
+    .imgTip {
+      width: 374px;
+      margin-top: 20px;
+    }
+  
+    .contenedorPreparando {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .img1 {
+      width: 374px;
+      margin-top: 20px;
+    }
+  
+    .img3 {
+      width: 374px;
+    }
+  
+    iframe {
+      width: 370px;
+    }
+  
+    .imgGracias {
+      width: 100%;
+    }
+  
+    .nosotros1 {
+      font-size: 50px;
+    }
+  }
+  

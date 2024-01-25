@@ -1,0 +1,16 @@
+/* NAV */
+
+.nav-item {
+    transition: 0.5s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .navbar-nav {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* FINALIZA NAV */

@@ -1,0 +1,26 @@
+/*APARTADO MEDIOS*/
+
+.hijoFlex {
+    color: black;
+    width: 120px;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .contenedorFlex {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .imgFlex {
+    width: 100px;
+  }
+  
+  .descripcionMedio {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* FINALIZA APARTADO MEDIO */
