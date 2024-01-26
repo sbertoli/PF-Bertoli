@@ -137,12 +137,25 @@ header {
   cursor: pointer;
   border: none;
   transition: 0.5s;
+  background: linear-gradient(to right, #2980B9, #6DD5FA);
 }
 .productoBtn:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
+/*KEYFRAME TITULO PRODUCTOS*/
+@keyframes titulo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 .tituloProductos {
+  animation-name: titulo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -170,7 +183,7 @@ header {
 } */
 /* CONTACTO */
 .container {
-  background-color: #000000;
+  background: linear-gradient(to right, #000000, #6d6d6d);
   width: 600px;
   margin: 0px auto;
   margin-top: 100px;
@@ -255,7 +268,7 @@ h3 {
 .contenedorConsulta {
   display: flex;
   flex-direction: column;
-  background-color: rgb(0, 0, 0);
+  background: linear-gradient(#536976, #292E49);
   text-align: center;
   color: white;
 }
@@ -275,7 +288,7 @@ h3 {
 
 .consultaBtn {
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(#5433FF, #20BDFF);
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 5px;
@@ -284,7 +297,7 @@ h3 {
   border-radius: 5px;
 }
 .consultaBtn:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /* .medios{

@@ -10,7 +10,7 @@
   .contenedorConsulta {
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(#536976, #292E49);
     text-align: center;
     color: white;
   }
@@ -32,7 +32,7 @@
   
   .consultaBtn {
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(#5433FF,#20BDFF);
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 5px;
@@ -41,7 +41,7 @@
     border-radius: 5px;
   
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.2);
     }
   }
   

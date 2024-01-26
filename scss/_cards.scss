@@ -48,13 +48,27 @@
     cursor: pointer;
     border: none;
     transition: 0.5s;
+    background: linear-gradient(to right,#2980B9, #6DD5FA);
   
     &:hover {
-      transform: scale(1.1);
+     transform: scale(1.2);
     }
   }
-  
+  /*KEYFRAME TITULO PRODUCTOS*/ 
+  @keyframes titulo {
+    0%{
+      opacity: 0;
+
+    }
+    100%{
+      opacity: 100%;
+    }
+    
+  }
   .tituloProductos {
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
