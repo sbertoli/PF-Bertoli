@@ -52,3 +52,19 @@
       transform: scale(1.02);
     }
   }
+
+  .mate{
+    transform: translate(-25px, 16px);
+    width: 30px;
+    
+  }
+
+  .termo{
+    transition: 1.2s;
+    
+  }
+
+  .termo:hover{
+    transform: rotate(30deg);
+
+  }

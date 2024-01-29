@@ -1,7 +1,7 @@
 /*FOOTER*/
 
 .derechos {
-    background-color: #fafafa;
+    background-color: #ffffff;
     text-align: center;
     border: black solid 2px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -10,7 +10,7 @@
   .contenedorConsulta {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#536976, #292E49);
+    background: linear-gradient(to right, black, white);
     text-align: center;
     color: white;
   }
@@ -22,12 +22,14 @@
   .contenedorFooter {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
   }
   
   .consulta {
     height: 40px;
     display: inline;
     justify-content: center;
+    
   }
   
   .consultaBtn {

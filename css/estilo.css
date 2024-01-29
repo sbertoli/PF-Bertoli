@@ -13,9 +13,12 @@
 /* FINALIZA LOGO */
 /*Imagen Index banner*/
 h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: underline;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 8px rgba(26, 171, 255, 0.925);
 }
 
 .imgMate {
@@ -157,7 +160,7 @@ header {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Bebas Neue", sans-serif;
@@ -232,6 +235,19 @@ h3 {
   transform: scale(1.02);
 }
 
+.mate {
+  transform: translate(-25px, 16px);
+  width: 30px;
+}
+
+.termo {
+  transition: 1.2s;
+}
+
+.termo:hover {
+  transform: rotate(30deg);
+}
+
 /*APARTADO MEDIOS*/
 .hijoFlex {
   color: black;
@@ -259,7 +275,7 @@ h3 {
 /* FINALIZA APARTADO MEDIO */
 /*FOOTER*/
 .derechos {
-  background-color: #fafafa;
+  background-color: #ffffff;
   text-align: center;
   border: black solid 2px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -268,7 +284,7 @@ h3 {
 .contenedorConsulta {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#536976, #292E49);
+  background: linear-gradient(to right, black, white);
   text-align: center;
   color: white;
 }
@@ -323,6 +339,7 @@ border-radius: 5px;
 }
 
 .nosotrosTexto {
+  text-decoration: none;
   font-size: 30px;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -416,6 +433,13 @@ border-radius: 5px;
   font-size: 24px;
   text-align: center;
   padding-top: 35px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 50px;
 }
 
 /* Estilos para mobile*/

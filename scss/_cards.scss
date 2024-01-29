@@ -69,13 +69,11 @@
     animation-name: titulo;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+    @include estiloTextos;
     font-weight: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px;
-    text-shadow: 1px 1px 8px rgba(26, 171, 255, 0.925);
+    text-shadow: ($shadow-titulo); 
   }
   
   .contenedorImagenesMates {
