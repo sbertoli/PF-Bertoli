@@ -175,15 +175,6 @@ header {
   align-items: center;
 }
 
-/* .imagenProducto {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: azure;
-} */
 /* CONTACTO */
 .container {
   background: linear-gradient(to right, #000000, #6d6d6d);
@@ -238,6 +229,8 @@ h3 {
 .mate {
   transform: translate(-25px, 16px);
   width: 30px;
+  align-items: end;
+  display: inline-block;
 }
 
 .termo {
@@ -246,6 +239,12 @@ h3 {
 
 .termo:hover {
   transform: rotate(30deg);
+}
+
+.contactoTitulo {
+  text-shadow: 1px 1px 8px rgba(26, 171, 255, 0.925);
+  font-size: 30px;
+  text-decoration: none;
 }
 
 /*APARTADO MEDIOS*/
@@ -316,13 +315,6 @@ h3 {
   transform: scale(1.2);
 }
 
-/* .medios{
-  display: flex;
-flex-direction: row;
-align-items: center;
-padding: 20px;
-border-radius: 5px;
-} */
 .tituloItem {
   text-align: start;
 }
@@ -445,13 +437,8 @@ h2 {
 /* Estilos para mobile*/
 @media (min-width: 844px) and (max-width: 1542px) {
   .grid-container {
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2,1fr); */
     width: 500px;
     height: 350px;
-    /* grid-template-areas:  
-     "imagen1 imagen2"
-     "imagen3 imagen4"; */
   }
   .contenedorFlex {
     display: grid;

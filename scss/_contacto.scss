@@ -56,6 +56,8 @@
   .mate{
     transform: translate(-25px, 16px);
     width: 30px;
+    align-items: end;
+    display: inline-block;
     
   }
 
@@ -66,5 +68,13 @@
 
   .termo:hover{
     transform: rotate(30deg);
+
+  }
+
+  .contactoTitulo {
+    text-shadow: $shadow-titulo;
+    font-size: 30px;
+    text-decoration: none;
+    
 
   }

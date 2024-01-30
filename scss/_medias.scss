@@ -3,14 +3,10 @@
 
 @media (min-width: 844px) and (max-width: 1542px) {
     .grid-container {
-      /* grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2,1fr); */
+     
       width: 500px;
       height: 350px;
   
-      /* grid-template-areas:  
-       "imagen1 imagen2"
-       "imagen3 imagen4"; */
     }
   
     .contenedorFlex {
