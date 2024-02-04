@@ -20,6 +20,9 @@ h1 {
     font-size: 60px;
     @include estiloTextos;
     text-shadow: ($shadow-titulo);
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 
   }
   
@@ -80,3 +83,14 @@ h1 {
   }
   
   /* FINALIZA GRID */
+
+  //keyframe//
+  @keyframes titulo {
+    0%{
+      opacity: 0;
+
+    }
+    100%{
+      opacity: 100%;
+    }
+  }

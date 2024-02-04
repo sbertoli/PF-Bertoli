@@ -19,6 +19,9 @@ h1 {
   text-decoration: underline;
   text-transform: uppercase;
   text-shadow: 1px 1px 8px rgba(26, 171, 255, 0.925);
+  animation-name: titulo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .imgMate {
@@ -73,6 +76,14 @@ h1 {
 }
 
 /* FINALIZA GRID */
+@keyframes titulo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 header {
   position: sticky;
   top: 0;
