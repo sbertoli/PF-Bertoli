@@ -8,6 +8,7 @@
   }
   
   .contenedorConsulta {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, black, white);
@@ -34,7 +35,7 @@
   
   .consultaBtn {
     color: rgb(0, 0, 0);
-    background: linear-gradient(#5433FF,#20BDFF);
+    background: linear-gradient(to right,#242424, #00ff95);
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 5px;

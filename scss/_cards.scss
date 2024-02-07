@@ -1,18 +1,19 @@
 /*APARTADO TARJETA PRODUCTOS INICIO*/
 
 .contenedorProductos {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    row-gap: 90px;
+
   }
   
   .productos {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.5s;
   
-    /* padding: 20px; */
-    border-radius: 5px;
   }
   
   .productoImg {
@@ -20,6 +21,9 @@
     border-radius: 19px;
     margin-bottom: 20px;
     object-fit: contain;
+    box-shadow: 5px 5px 25px rgb(0, 83, 4);
+    
+    
   }
   
   .productoTitulo {
@@ -27,6 +31,7 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
+   
   }
   
   .productoDesc {
@@ -48,12 +53,20 @@
     cursor: pointer;
     border: none;
     transition: 0.5s;
-    background: linear-gradient(to right,#2980B9, #6DD5FA);
+    background: linear-gradient(to right,#242424, #00ff95);
   
     &:hover {
      transform: scale(1.2);
     }
   }
+   
+  //HOVER A CARDS// 
+
+  .productos:hover {
+    transform: scale(1.1);
+  }
+
+
   /*KEYFRAME TITULO PRODUCTOS*/ 
   @keyframes titulo {
     0%{
