@@ -560,6 +560,9 @@ h2 {
     width: 374px;
     margin-top: 20px;
   }
+  .logoImg {
+    width: 95px;
+  }
   .contenedorPreparando {
     display: flex;
     flex-direction: column;
